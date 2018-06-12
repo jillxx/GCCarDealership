@@ -11,7 +11,7 @@
 <h1>Car Dealership Welcomepage</h1>
 <br>
 <h1>Select a make: </h1>
-<form action="makeresults">
+<form action="make">
 <select name="make">
 	<option value="Ford">Ford</option>
 	<option value="Honda">Honda</option>
@@ -33,7 +33,7 @@
 </form>
 <br>
 <h1>Select a color: </h1>
-<form action="coloresults">
+<form action="color">
 <select name="color">
 	<option value="Silver">Silver</option>
 	<option value="Red">Red</option>
