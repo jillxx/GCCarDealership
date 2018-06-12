@@ -5,9 +5,41 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Index</title>
+<title>Car Dealership</title>
 </head>
 <body>
-
+<h1>Car Dealership Welcomepage</h1>
+<br>
+<h1>Select a make: </h1>
+<form action="makeresults">
+<select name="make">
+	<option value="Ford">Ford</option>
+	<option value="Honda">Honda</option>
+	<option value="Toyota">Toyota</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+<br>
+<h1>Enter a model: </h1>
+<form action="model">
+<input type="text" name="model">
+<input type="submit" value="Submit">
+</form>
+<br>
+<h1>Enter a year: </h1>
+<form action="year">
+<input type="text" name="year">
+<input type="submit" value="Submit">
+</form>
+<br>
+<h1>Select a color: </h1>
+<form action="coloresults">
+<select name="color">
+	<option value="Silver">Silver</option>
+	<option value="Red">Red</option>
+	<option value="Black">Black</option>
+</select>
+<input type="submit" value="Submit">
+</form>
 </body>
 </html>
