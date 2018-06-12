@@ -1,18 +1,15 @@
 package com.gc.cardealer.GCCarDealership.model;
 
-import java.io.Serializable;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "car")
-public class Car implements Serializable {
+public class Car {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
